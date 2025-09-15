@@ -19,6 +19,7 @@ A simple yet powerful Python application that uses OpenCV to detect red-colored 
 🛠️ How It Works:-
 
 
+
 The detection process follows a classic computer vision pipeline:
 
 1] Video Capture: The script captures video frame-by-frame from the default camera.
@@ -30,6 +31,11 @@ The detection process follows a classic computer vision pipeline:
 4] Contour Detection: The script finds the continuous contours (outlines) of the white areas in the binary mask. These contours correspond to the red objects in the frame.
 
 5] Filtering & Drawing: It filters out very small contours to reduce noise. For each significant contour found, it calculates a bounding rectangle and draws it on the original frame. A status text is then displayed.
+
+OUTPUT :-
+
+
+<img width="804" height="641" alt="Screenshot 2025-09-15 190341" src="https://github.com/user-attachments/assets/db83d36b-cc85-467d-8647-c20fba0c2213" />
 
 📚 Technologies Used:-
 
